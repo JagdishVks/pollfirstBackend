@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\PollfirstBackend</_PublishTargetUrl>
+    <History>True|2024-10-23T08:57:18.0617965Z||;True|2024-10-23T14:15:52.3096563+05:30||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="Pollfirst">
+      <Value>server=LDQPL-VM-CI\MSSQLSERVERR%3bdatabase=db_jansamvaad%3bIntegrated Security=True%3bMultipleActiveResultSets=True%3bTrustServerCertificate=True%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Pollfirst.Models.InstagramPlatformContext">
+      <Value>server=LDQPL-VM-CI\MSSQLSERVERR%3bdatabase=db_jansamvaad%3bIntegrated Security=True%3bMultipleActiveResultSets=True%3bTrustServerCertificate=True%3b</Value>
+    </EFMigrations>
+    <EFMigrations Include="Pollfirst.Models.NewsArticleContext">
+      <Value>server=LDQPL-VM-CI\MSSQLSERVERR%3bdatabase=db_jansamvaad%3bIntegrated Security=True%3bMultipleActiveResultSets=True%3bTrustServerCertificate=True%3b</Value>
+    </EFMigrations>
+    <EFMigrations Include="Pollfirst.Models.NewsPlatformFacebookContext">
+      <Value>server=LDQPL-VM-CI\MSSQLSERVERR%3bdatabase=db_jansamvaad%3bIntegrated Security=True%3bMultipleActiveResultSets=True%3bTrustServerCertificate=True%3b</Value>
+    </EFMigrations>
+    <EFMigrations Include="Pollfirst.Models.NewsPlatformTwitterContext">
+      <Value>server=LDQPL-VM-CI\MSSQLSERVERR%3bdatabase=db_jansamvaad%3bIntegrated Security=True%3bMultipleActiveResultSets=True%3bTrustServerCertificate=True%3b</Value>
+    </EFMigrations>
+    <EFMigrations Include="Pollfirst.Models.NewsPlatformYouTubeContext">
+      <Value>server=LDQPL-VM-CI\MSSQLSERVERR%3bdatabase=db_jansamvaad%3bIntegrated Security=True%3bMultipleActiveResultSets=True%3bTrustServerCertificate=True%3b</Value>
+    </EFMigrations>
+    <EFMigrations Include="Pollfirst.Models.TrackLeaderContext">
+      <Value>server=LDQPL-VM-CI\MSSQLSERVERR%3bdatabase=db_jansamvaad%3bIntegrated Security=True%3bMultipleActiveResultSets=True%3bTrustServerCertificate=True%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

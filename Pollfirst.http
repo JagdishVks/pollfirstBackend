@@ -1,0 +1,6 @@
+@Pollfirst_HostAddress = http://localhost:5196
+
+GET {{Pollfirst_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
